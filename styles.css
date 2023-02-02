@@ -22,6 +22,10 @@ body {
     background-color: rgb(219, 219, 219);
 }
 
-div.gridPart:hover, div.gridPart:active {
+.gridSelected {
+    background-color: black;
+}
+
+div.gridPart:hover {
     background-color: black;
 }
