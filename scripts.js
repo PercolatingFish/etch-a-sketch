@@ -17,10 +17,10 @@ function gridMaker(squares) {
 
 function popup() {
     let squares = prompt("How many squares do you want?");
-    if (squares > 100) {
+    while (squares > 100) {
         squares = prompt("Try again, less than 100 please");
-    }
-    gridMaker(squares)
+    } 
+    gridMaker(squares);
 }
 
 function turnBlack() {
