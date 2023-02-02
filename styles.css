@@ -1,0 +1,24 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: greenyellow;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: space-between;
+    flex-wrap: wrap;
+}
+
+.gridPart {
+    padding: 10px;
+    background-color: rgb(219, 219, 219);
+}
+
+div.gridPart:hover {
+    background-color: black;
+}
