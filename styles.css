@@ -2,23 +2,26 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .container {
     background-color: greenyellow;
-    width: 320px;
+    width: 960px;
+    height: 960px;
     display: flex;
     justify-content: space-between;    
     align-items: space-between;
     flex-wrap: wrap;
+    flex: 0 0 auto;
 }
 
 .gridPart {
-    padding: 10px;
     background-color: rgb(219, 219, 219);
 }
 
-div.gridPart:hover {
+div.gridPart:hover, div.gridPart:active {
     background-color: black;
 }
